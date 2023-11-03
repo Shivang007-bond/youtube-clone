@@ -12,10 +12,13 @@ const ButtonList = () => {
     "fitness",
     "health",
     "gaming",
+    "Al Pacino",
+    'David Goggins',
+
   ];
 
   return (
-    <div className="flex p-4 overflow-x-auto mx-10">
+    <div className="flex p-4 overflow-x-auto justify-evenly">
       {list.map((item, index) => (
         <Button key={index} text={item} />
       ))}
